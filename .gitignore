@@ -1,11 +1,19 @@
-# 📦 Dependencies
+# 📦 Dependencies (Frontend)
 /node_modules
 /jspm_packages
+
+# 📦 Dependencies (Python/Backend)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
 
 # 🔑 Credentials & Secrets
 .env
 .env.local
 .env.*.local
+firebase/serviceAccountKey.json
 
 # 🖥️ Build Artifacts
 /dist
