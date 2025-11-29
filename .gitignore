@@ -1,0 +1,25 @@
+# 📦 Dependencies
+/node_modules
+/jspm_packages
+
+# 🔑 Credentials & Secrets
+.env
+.env.local
+.env.*.local
+
+# 🖥️ Build Artifacts
+/dist
+/build
+/out
+
+# 🖥️ OS and IDE Files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# 📝 Logs and Caches
+*.log
+npm-debug.log*
+yarn-error.log
+/coverage
